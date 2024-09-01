@@ -14,6 +14,7 @@ function pegarMacrorregioes() {
 
 function pegarEstados(regiao) {
     estado.innerHTML = "<option disabled selected>Selecionar estado</option>"
+    cidade.innerHTML = "<option disabled selected>Selecionar cidade</option>"
 
     fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/regioes/${regiao}/estados`)
         .then((response) => response.json())
