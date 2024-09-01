@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #eee;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+
+    select {
+        margin-bottom: 10px;
+    }
+}
